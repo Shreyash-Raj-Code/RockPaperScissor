@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    list-style: none;
+}
+body{
+    background-color: yellow;
+    height: 90vh;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+li{
+    margin: 0vw 2vw 0vw 2vw;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+footer{
+    display: flex;
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    top: 95vh;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+}
+.button{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+}
+#declare{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+}
+#legend{
+    position: absolute;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    top: 70vh;
+    left: 60vw;
+}
+#rock{
+    position: absolute;
+    top: 75vh;
+    left: 60vw;
+}
+#paper{
+    position: absolute;
+    top: 75vh;
+    left: 70vw;
+}
+#scissor{
+    position: absolute;
+    top: 75vh;
+    left: 80vw;
+}
+#computerChooseBox{
+    display: flex;
+    position: absolute;
+    left: 4vw;
+    background-color: rgb(253, 236, 0);
+    justify-content: center;
+}
+#userChooseBox{
+    display: flex;
+    position: absolute;
+    left: 55vw;
+    background-color: rgb(253, 236, 0);
+    justify-content: center;
+}
+.chooseBox{
+    height: 50vh;
+    border: 2px solid black;
+    width: 40vw;
+    border-radius: 4px;
+}
+#userChoose{
+    position: absolute;
+    top: 70vh;
+    left: 68vw;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+.computerChoose{
+    position: absolute;
+    top: 70vh;
+    left: 22vw;
+    color: transparent;
+    text-shadow: 0 0 8px #000;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+#clegend{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    position: absolute;
+    top: 70vh;
+    left: 10vw;
+}
+#crock{
+    position: absolute;
+    top: 75vh;
+    right: 60vw;
+}
+#cpaper{
+    position: absolute;
+    top: 75vh;
+    right: 70vw;
+}
+#cscissor{
+    position: absolute;
+    top: 75vh;
+    right: 80vw;
+}
+#resultBox{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    height: 40vh;
+    width: 40vw;
+    border: 4px solid grey;
+    top: 30vh;
+    left: 28vw;
+    align-items: center;
+    justify-content: center;
+}
+#replay{
+    text-decoration: none;
+    color: white;
+}

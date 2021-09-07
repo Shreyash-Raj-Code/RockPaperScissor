@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/js.css">
+    <title>Rock Paper Scissor</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="static/logo.jpg" alt="logo" width="100px"></li>
+                <li>Rock Paper Scissor</li>
+                <li><button id="declare">
+                    Declare
+                </button></li>
+            </ul>
+        </nav> 
+    </header>
+    <main>
+        <!-- section which will show the what computer has choosen and also what user has choosen -->
+        <section id="chooseBoxContainer">
+            <div id="userChooseBox" class="chooseBox">
+                <img src="static/1_8du96SQUQ0NlWmWvVu20Zw.png" alt="" width="380px">
+            </div>
+            <div id="computerChooseBox" class="chooseBox">
+                <img src="static/1_8du96SQUQ0NlWmWvVu20Zw.png" alt="" width="380px">
+            </div>
+        </section>
+
+        <!-- section to let user choose  -->
+        <section>
+            <span id="legend">You Choose: </span>
+            <span id="userChoose"></span>
+            <button id="rock" class="button">
+                Rock
+            </button>
+            <button id="paper" class="button">
+                Paper
+            </button>
+            <button id="scissor" class="button">
+                Scissor
+            </button>
+        </section>
+
+        <!-- section to let computer choose -->
+        <section>
+            <span id="clegend">Computer Choose:</span>
+            <span id="computerChoose" class="computerChoose">Unknown</span>
+            <button id="crock" class="button">
+                Rock
+            </button>
+            <button id="cpaper" class="button">
+                Paper
+            </button>
+            <button id="cscissor" class="button">
+                Scissor
+            </button>
+        </section>
+
+        <!-- section to display output -->
+        <section>
+            <div id="resultBox" class="resultBox">
+            </div>
+        </section>
+    </main>
+    <footer>
+        Copyright &copy; RockPaperScissor
+    </footer>
+</body>
+<script src="js/script.js"></script>
+
+</html>

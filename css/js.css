@@ -1,0 +1,10 @@
+.greybg{
+    background-color: grey;
+}
+.visible{
+    color: black;
+    text-shadow: none;
+}
+.resultBox{
+    visibility: hidden;
+}
