@@ -82,6 +82,7 @@ footer{
     border: 2px solid black;
     width: 40vw;
     border-radius: 4px;
+    overflow: hidden;
 }
 #userChoose{
     position: absolute;
@@ -133,4 +134,9 @@ footer{
 #replay{
     text-decoration: none;
     color: white;
+}
+@media only screen and (min-width: 360px){
+    body{
+        background-color: wheat;
+    }
 }
